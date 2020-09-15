@@ -1,4 +1,4 @@
-# Adonis fullstack application
+# Akar Core API
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
@@ -13,14 +13,16 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
 ## Setup
 
-Use the adonis command to install the blueprint
+Run `npm install`.
 
+### Database Setup
+Setup database driver to use, example using mysql:
+- MySql:
 ```bash
-adonis new yardstick
+npm i mysql
 ```
 
-or manually clone the repo and then run `npm install`.
-
+The list of supported databases: [AdonisJs Supported Databases](https://adonisjs.com/docs/4.1/database#_supported_databases)
 
 ### Migrations
 
